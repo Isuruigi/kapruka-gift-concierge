@@ -1,0 +1,179 @@
+{
+  "profiles": {
+    "wife": {
+      "name": "Amaya",
+      "relationship": "wife",
+      "preferences": [
+        "sushi",
+        "gold jewelry",
+        "spa gift sets",
+        "dark chocolate",
+        "red roses"
+      ],
+      "dislikes": [
+        "white chocolate",
+        "carnations"
+      ],
+      "allergies": [
+        "peanut",
+        "peanuts",
+        "nuts",
+        "shellfish"
+      ],
+      "dietary": [
+        "no-nuts",
+        "pescatarian"
+      ],
+      "occasions": {
+        "birthday": "2025-06-15",
+        "anniversary": "2025-03-22",
+        "valentines": "2025-02-14"
+      },
+      "location": "Colombo",
+      "past_gifts": [
+        {
+          "item": "Nut-Free Chocolate Cake",
+          "date": "2024-06-15",
+          "occasion": "birthday",
+          "feedback": "loved it"
+        },
+        {
+          "item": "Red Rose Bouquet (24 stems)",
+          "date": "2024-02-14",
+          "occasion": "valentines",
+          "feedback": "perfect"
+        }
+      ],
+      "budget_range_lkr": {
+        "min": 3000,
+        "max": 15000
+      },
+      "notes": "Prefers elegant packaging. Loves surprises at her office."
+    },
+    "mother": {
+      "name": "Kamala",
+      "relationship": "mother",
+      "preferences": [
+        "fruit baskets",
+        "traditional sweets",
+        "sarees",
+        "tea sets",
+        "religious items"
+      ],
+      "dislikes": [
+        "too modern gifts",
+        "perfume"
+      ],
+      "allergies": [
+        "gluten"
+      ],
+      "dietary": [
+        "gluten-free",
+        "vegetarian"
+      ],
+      "occasions": {
+        "birthday": "2025-09-03",
+        "mothers_day": "2025-05-11"
+      },
+      "location": "Kandy",
+      "past_gifts": [
+        {
+          "item": "Premium Fruit Basket",
+          "date": "2024-05-12",
+          "occasion": "mothers_day",
+          "feedback": "very happy"
+        }
+      ],
+      "budget_range_lkr": {
+        "min": 2000,
+        "max": 8000
+      },
+      "notes": "Lives alone. Delivery to Kandy address. Prefers morning delivery."
+    },
+    "boss": {
+      "name": "Mr. Rajapakse",
+      "relationship": "boss",
+      "preferences": [
+        "premium tea",
+        "corporate gift hampers",
+        "whisky accessories",
+        "leather goods"
+      ],
+      "dislikes": [],
+      "allergies": [
+        "shellfish"
+      ],
+      "dietary": [],
+      "occasions": {
+        "birthday": "2025-11-20"
+      },
+      "location": "Colombo",
+      "past_gifts": [],
+      "budget_range_lkr": {
+        "min": 5000,
+        "max": 20000
+      },
+      "notes": "Keep it professional. No overly personal items."
+    },
+    "daughter": {
+      "name": "Nethmi",
+      "relationship": "daughter",
+      "preferences": [
+        "soft toys",
+        "coloring books",
+        "educational toys",
+        "princess themed items",
+        "ice cream cakes"
+      ],
+      "dislikes": [
+        "scary things"
+      ],
+      "allergies": [
+        "dairy"
+      ],
+      "dietary": [
+        "dairy-free"
+      ],
+      "occasions": {
+        "birthday": "2025-04-10"
+      },
+      "location": "Colombo",
+      "past_gifts": [
+        {
+          "item": "Giant Teddy Bear",
+          "date": "2024-04-10",
+          "occasion": "birthday",
+          "feedback": "absolutely loved it"
+        }
+      ],
+      "budget_range_lkr": {
+        "min": 1500,
+        "max": 6000
+      },
+      "notes": "Age 6. Dairy allergy is severe - no dairy cakes or chocolate with milk."
+    },
+    "friend_dinesh": {
+      "name": "Dinesh",
+      "relationship": "friend",
+      "preferences": [
+        "craft beer accessories",
+        "tech gadgets",
+        "cricket merchandise",
+        "BBQ sets"
+      ],
+      "dislikes": [],
+      "allergies": [],
+      "dietary": [],
+      "occasions": {
+        "birthday": "2025-08-25"
+      },
+      "location": "Galle",
+      "past_gifts": [],
+      "budget_range_lkr": {
+        "min": 2000,
+        "max": 7000
+      },
+      "notes": "Big cricket fan. Supports SL cricket team."
+    }
+  }
+}

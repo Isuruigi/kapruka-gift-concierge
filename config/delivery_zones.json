@@ -1,0 +1,176 @@
+{
+  "zones": {
+    "colombo": {
+      "district": "Colombo",
+      "province": "Western",
+      "delivery_available": true,
+      "same_day_available": true,
+      "standard_delivery_days": 0,
+      "express_delivery_hours": 3,
+      "delivery_fee_lkr": 350,
+      "express_fee_lkr": 750,
+      "notes": "Full coverage within Colombo Municipal limits"
+    },
+    "gampaha": {
+      "district": "Gampaha",
+      "province": "Western",
+      "delivery_available": true,
+      "same_day_available": true,
+      "standard_delivery_days": 1,
+      "express_delivery_hours": 4,
+      "delivery_fee_lkr": 400,
+      "express_fee_lkr": 850,
+      "notes": "Covers Negombo, Ja-Ela, Kaduwela areas"
+    },
+    "kalutara": {
+      "district": "Kalutara",
+      "province": "Western",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 1,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 500,
+      "express_fee_lkr": null,
+      "notes": "Next-day delivery only"
+    },
+    "kandy": {
+      "district": "Kandy",
+      "province": "Central",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 2,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 600,
+      "express_fee_lkr": null,
+      "notes": "Central highlands, 2-day standard"
+    },
+    "galle": {
+      "district": "Galle",
+      "province": "Southern",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 2,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 650,
+      "express_fee_lkr": null,
+      "notes": "Southern coast delivery"
+    },
+    "matara": {
+      "district": "Matara",
+      "province": "Southern",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 2,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 700,
+      "express_fee_lkr": null,
+      "notes": "Southern tip delivery"
+    },
+    "jaffna": {
+      "district": "Jaffna",
+      "province": "Northern",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 900,
+      "express_fee_lkr": null,
+      "notes": "Northern delivery via A9 highway"
+    },
+    "kurunegala": {
+      "district": "Kurunegala",
+      "province": "North Western",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 2,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 550,
+      "express_fee_lkr": null,
+      "notes": "North Western Province"
+    },
+    "ratnapura": {
+      "district": "Ratnapura",
+      "province": "Sabaragamuwa",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 2,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 650,
+      "express_fee_lkr": null,
+      "notes": "Gem city, interior delivery"
+    },
+    "anuradhapura": {
+      "district": "Anuradhapura",
+      "province": "North Central",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 800,
+      "express_fee_lkr": null,
+      "notes": "Ancient city, 3-day standard"
+    },
+    "trincomalee": {
+      "district": "Trincomalee",
+      "province": "Eastern",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 850,
+      "express_fee_lkr": null,
+      "notes": "Eastern coast delivery"
+    },
+    "batticaloa": {
+      "district": "Batticaloa",
+      "province": "Eastern",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 900,
+      "express_fee_lkr": null,
+      "notes": "Eastern Province delivery"
+    },
+    "nuwara_eliya": {
+      "district": "Nuwara Eliya",
+      "province": "Central",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 750,
+      "express_fee_lkr": null,
+      "notes": "Hill country, weather may cause delays"
+    },
+    "badulla": {
+      "district": "Badulla",
+      "province": "Uva",
+      "delivery_available": true,
+      "same_day_available": false,
+      "standard_delivery_days": 3,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": 800,
+      "express_fee_lkr": null,
+      "notes": "Uva Province, hill terrain"
+    },
+    "kilinochchi": {
+      "district": "Kilinochchi",
+      "province": "Northern",
+      "delivery_available": false,
+      "same_day_available": false,
+      "standard_delivery_days": null,
+      "express_delivery_hours": null,
+      "delivery_fee_lkr": null,
+      "express_fee_lkr": null,
+      "notes": "Limited coverage - delivery not currently available"
+    }
+  },
+  "policies": {
+    "perishable_restriction": "Cakes and fresh flowers limited to same-day/next-day zones only (Colombo, Gampaha, Kalutara)",
+    "cod_available": true,
+    "free_delivery_threshold_lkr": 10000,
+    "max_weight_kg": 25,
+    "public_holiday_delay_days": 1
+  }
+}

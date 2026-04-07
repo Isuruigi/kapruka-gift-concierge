@@ -1,0 +1,66 @@
+# ============================
+# SECRETS & PRIVATE KEYS
+# ============================
+.env
+*.env
+.env.*
+!.env.example
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ============================
+# Virtual Environments
+# ============================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================
+# Output / Generated Files
+# ============================
+output/
+*.log
+
+# ============================
+# Jupyter / Dev Tools
+# ============================
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================
+# IDE / Editor
+# ============================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Archived / Dev-only scripts
+# ============================
+.archived_scripts/
+
+# ============================
+# Streamlit
+# ============================
+.streamlit/secrets.toml

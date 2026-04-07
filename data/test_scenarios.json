@@ -1,0 +1,104 @@
+{
+  "scenarios": [
+    {
+      "id": "TC001",
+      "name": "Basic product search",
+      "user_message": "I need a birthday cake for my wife",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": "wife",
+      "expected_behavior": "Search catalog for cakes, load wife's profile, filter out nut-containing items",
+      "allergy_trap": true,
+      "notes": "Wife (Amaya) is allergic to nuts - any nut-containing cake must be filtered"
+    },
+    {
+      "id": "TC002",
+      "name": "Preference update",
+      "user_message": "My wife is now also allergic to shellfish, please remember that",
+      "expected_intent": "PREFERENCE_UPDATE",
+      "expected_recipient": "wife",
+      "expected_behavior": "Update wife's allergy list to include shellfish in recipient_profiles.json",
+      "allergy_trap": false,
+      "notes": "Tests semantic memory write capability"
+    },
+    {
+      "id": "TC003",
+      "name": "Delivery logistics check",
+      "user_message": "Can you deliver a cake to Kandy by this Saturday?",
+      "expected_intent": "DELIVERY_CHECK",
+      "expected_recipient": null,
+      "expected_behavior": "Check Kandy delivery zone - cakes are perishable, Kandy is 2-day standard, check if Saturday is feasible",
+      "allergy_trap": false,
+      "notes": "Perishable restriction test - cakes may not be deliverable to Kandy"
+    },
+    {
+      "id": "TC004",
+      "name": "Allergy reflection trap",
+      "user_message": "Get me a nice chocolate gift box for my wife",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": "wife",
+      "expected_behavior": "Draft finds chocolate boxes, reflection catches nut-containing ones, revise suggests nut-free alternatives",
+      "allergy_trap": true,
+      "notes": "Core reflection loop test - MUST catch nut allergies"
+    },
+    {
+      "id": "TC005",
+      "name": "Budget-constrained search",
+      "user_message": "I want flowers for my mother, under 5000 rupees",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": "mother",
+      "expected_behavior": "Search flowers, filter by price <= 5000 LKR, check mother's profile",
+      "allergy_trap": false,
+      "notes": "Price filtering + profile matching"
+    },
+    {
+      "id": "TC006",
+      "name": "Repeat order reference",
+      "user_message": "I want to send the same thing I got my wife last Valentine's day",
+      "expected_intent": "ORDER_HISTORY",
+      "expected_recipient": "wife",
+      "expected_behavior": "Look up wife's past_gifts for valentines occasion, find Red Rose Bouquet",
+      "allergy_trap": false,
+      "notes": "Tests semantic memory read for past gift history"
+    },
+    {
+      "id": "TC007",
+      "name": "Unknown recipient",
+      "user_message": "I need a gift for my colleague Sarah",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": null,
+      "expected_behavior": "No profile found for Sarah - ask user for preferences, suggest generic safe options",
+      "allergy_trap": false,
+      "notes": "Graceful handling of missing profiles"
+    },
+    {
+      "id": "TC008",
+      "name": "Cultural occasion - Avurudu",
+      "user_message": "I need an Avurudu gift for my mother in Kandy",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": "mother",
+      "expected_behavior": "Sri Lankan New Year appropriate gifts, Kandy delivery, mother's preferences (traditional sweets, but she's gluten-free)",
+      "allergy_trap": true,
+      "notes": "Cultural context + location + dietary restriction"
+    },
+    {
+      "id": "TC009",
+      "name": "Delivery to unavailable zone",
+      "user_message": "Can you deliver flowers to Kilinochchi tomorrow?",
+      "expected_intent": "DELIVERY_CHECK",
+      "expected_recipient": null,
+      "expected_behavior": "Inform user that Kilinochchi delivery is not currently available, suggest alternative pickup options",
+      "allergy_trap": false,
+      "notes": "Tests unavailable zone handling"
+    },
+    {
+      "id": "TC010",
+      "name": "Daughter dairy trap",
+      "user_message": "I want an ice cream cake for my daughter's birthday",
+      "expected_intent": "PRODUCT_SEARCH",
+      "expected_recipient": "daughter",
+      "expected_behavior": "Draft finds ice cream cakes, reflection catches dairy allergy (daughter is dairy-free), revise suggests dairy-free alternatives",
+      "allergy_trap": true,
+      "notes": "Daughter Nethmi has severe dairy allergy - ice cream cakes are pure dairy"
+    }
+  ]
+}
