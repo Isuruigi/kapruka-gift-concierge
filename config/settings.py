@@ -71,6 +71,30 @@ class Settings:
     # === Agent Settings ===
     REFLECTION_MAX_ITERATIONS = 2
 
+    # ─── CLIP / Multimodal Settings ───────────────────────────────────────────────
+
+    # CLIP model (runs on CPU, no GPU needed)
+    CLIP_MODEL_NAME: str = "openai/clip-vit-base-patch32"
+
+    # Qdrant collection for image embeddings
+    QDRANT_CLIP_COLLECTION: str = "kapruka_clip_images"
+
+    # CLIP embedding dimension (fixed for clip-vit-base-patch32)
+    CLIP_EMBEDDING_DIM: int = 512
+
+    # Local directory to store downloaded product images
+    IMAGE_DIR: Path = Path("data/images")
+
+    # Fusion weights — how much each retrieval layer contributes to final score
+    FUSION_TEXT_WEIGHT: float = 0.6    # Text RAG contributes 60%
+    FUSION_IMAGE_WEIGHT: float = 0.4   # CLIP image retrieval contributes 40%
+
+    # Target categories for image crawl (highest visual impact)
+    IMAGE_CRAWL_CATEGORIES: list = ["cakes", "flowers", "hampers", "chocolates"]
+
+    # Max products to download images for
+    IMAGE_CRAWL_LIMIT: int = 400
+
     def validate(self) -> list[str]:
         """Check all required env vars are set. Return list of missing ones."""
         missing = []

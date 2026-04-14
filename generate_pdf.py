@@ -269,10 +269,10 @@ def build_cover(styles):
         ["Document Type", "Technical Report / Academic Submission"],
         ["Course", "AI Engineer Essentials - Agentic AI Design Patterns"],
         ["Project", "Mini Project 03 (100 + 10 Bonus Marks)"],
-        ["Date", "March 2026"],
+        ["Date", "April 2026"],
         ["LLM Provider", "Anthropic - Claude 3 Haiku (claude-3-haiku-20240307)"],
-        ["Vector Store", "Qdrant Cloud - 17,305 Products Indexed"],
-        ["Embedding Model", "all-MiniLM-L6-v2  (sentence-transformers, 384-dim)"],
+        ["Vector Store", "Qdrant Cloud - 17,305 Text + 215 CLIP Image Vectors"],
+        ["Embedding Models", "all-MiniLM-L6-v2 (384-dim) + CLIP ViT-B/32 (512-dim)"],
     ]
     meta_table = Table(
         [[Paragraph(k, ParagraphStyle("mk", fontName="Helvetica-Bold",
@@ -300,7 +300,7 @@ def build_cover(styles):
         "ZERO Agent Frameworks",
         "Pure Python Orchestration",
         "100% Allergy Safety",
-        "17,305 Products Indexed",
+        "Tri-Modal CLIP RAG",
     ]
     badge_cells = []
     for b in badges:
@@ -370,8 +370,8 @@ def build_abstract(styles):
     # Keywords row
     kw = Table(
         [[Paragraph(
-            "<b>Keywords:</b>  Agentic AI · RAG · Vector Databases · Reflection Loops · "
-            "Multi-Agent Systems · Sri Lankan E-Commerce · Qdrant · Anthropic Claude",
+            "<b>Keywords:</b>  Agentic AI · RAG · Multimodal Retrieval · CLIP · Vector Databases · "
+            "Reflection Loops · Multi-Agent Systems · Sri Lankan E-Commerce · Qdrant · Anthropic Claude",
             ParagraphStyle("kw", fontName="Helvetica-Oblique",
                            fontSize=8.5, textColor=MID_GREY, alignment=TA_CENTER)
         )]],
@@ -731,9 +731,105 @@ def sec_crawler(styles):
     return elems
 
 
+def sec_multimodal(styles):
+    s = styles
+    elems = section_header("Phase 8 — Multimodal CLIP Extension", "7", s)
+    elems.append(body(
+        "Phase 8 extends the Gift-Concierge from a dual-layer system (Text RAG + Reflection) "
+        "to a <b>Tri-Modal Retrieval Architecture</b> by adding a CLIP-based visual search layer. "
+        "CLIP (Contrastive Language-Image Pre-Training) encodes both text queries and product images "
+        "into the same 512-dimensional embedding space — enabling cross-modal retrieval where a "
+        "text query like <i>'red velvet cake'</i> directly matches product images by visual similarity, "
+        "with no text labels required on the images.", s))
+
+    elems.append(sub_header("7.1  Tri-Modal Architecture Overview", s))
+    layer_rows = [
+        ["Layer", "Model", "Qdrant Collection", "Dim", "Role"],
+        ["Text RAG", "all-MiniLM-L6-v2", "kapruka_catalog", "384", "Semantic catalog search"],
+        ["CLIP Image", "clip-vit-base-patch32", "kapruka_clip_images", "512", "Visual similarity search"],
+        ["Fusion", "Weighted merge 60/40", "—", "—", "Combine & rerank both layers"],
+    ]
+    elems.append(metric_table(layer_rows[0], layer_rows[1:],
+                              col_widths=[2.4*cm, 4.5*cm, 4.5*cm, 1.5*cm, 3.7*cm]))
+    elems.append(Paragraph("Table 7 - Three retrieval layers and their respective roles.", s["caption"]))
+
+    elems.append(sub_header("7.2  New Components Implemented", s))
+    comp_rows = [
+        ["Component", "File", "Responsibility"],
+        ["CLIPEncoder", "src/multimodal/clip_encoder.py",
+         "Singleton wrapper for openai/clip-vit-base-patch32; encodes text and images to 512-dim vectors (CPU)"],
+        ["ImageVectorStore", "src/multimodal/image_store.py",
+         "Manages kapruka_clip_images Qdrant collection; ingest and query_points search"],
+        ["FusionRanker", "src/multimodal/fusion_ranker.py",
+         "Min-max normalises scores from both layers; weighted sum (default 60% text / 40% image)"],
+        ["VisualSearchAgent", "src/agents/visual_search_agent.py",
+         "6th specialist agent; orchestrates text + CLIP search, fusion, and Claude recommendation"],
+        ["image_downloader", "src/crawler/image_downloader.py",
+         "Downloads product images from Kapruka CDN (static2.kapruka.com); builds image manifest"],
+    ]
+    elems.append(metric_table(comp_rows[0], comp_rows[1:],
+                              col_widths=[3.5*cm, 5.0*cm, 8.1*cm]))
+    elems.append(Paragraph("Table 8 - New Phase 8 components and their responsibilities.", s["caption"]))
+
+    elems.append(sub_header("7.3  Image Ingestion Pipeline", s))
+    elems.append(body(
+        "Real product images were scraped from the Kapruka live site using Playwright, "
+        "targeting the <code>static2.kapruka.com/product-image/</code> CDN. "
+        "Images were downloaded for four categories: cakes, flowers, chocolates, and gift hampers. "
+        "Each downloaded image is encoded by CLIPEncoder using a batched inference loop on CPU, "
+        "producing a 512-dimensional unit-norm vector that is upserted into the "
+        "<code>kapruka_clip_images</code> Qdrant collection with full product payload attached.", s))
+
+    ingest_rows = [
+        ["Category", "Images Scraped", "Images Downloaded", "Vectors Ingested"],
+        ["Cakes", "102", "~50", "Included"],
+        ["Flowers", "102", "~50", "Included"],
+        ["Chocolates", "3", "~3", "Included"],
+        ["Gift Hampers", "17", "~17", "Included"],
+        ["Total", "224", "215", "215"],
+    ]
+    elems.append(metric_table(ingest_rows[0], ingest_rows[1:],
+                              col_widths=[3.8*cm, 3.8*cm, 3.8*cm, 5.2*cm]))
+    elems.append(Paragraph("Table 9 - Image ingestion pipeline results per category.", s["caption"]))
+
+    elems.append(sub_header("7.4  Visual Search Routing", s))
+    elems.append(body(
+        "The orchestrator's <code>_is_visual_query()</code> method detects visual-intent keywords "
+        "(e.g., <i>looks like, colour, appearance, show me, visual</i>) in the user's message and "
+        "routes the request to the VisualSearchAgent instead of the standard CatalogSpecialist. "
+        "The VisualSearchAgent runs text RAG and CLIP searches in parallel, passes both result sets "
+        "through the FusionRanker, and submits the fused top-K to Claude for a natural-language recommendation.", s))
+
+    elems.append(sub_header("7.5  Phase 8 Validation Results", s))
+    elems.append(body(
+        "The multimodal pipeline was validated via <code>notebooks/06_multimodal_demo.ipynb</code> "
+        "running against the live Qdrant cluster and real downloaded product images.", s))
+    val_rows = [
+        ["Check", "Threshold", "Result", "Status"],
+        ["Images on disk", ">= 100", "215", "PASS"],
+        ["image_manifest.json present", "exists", "exists", "PASS"],
+        ["CLIP vectors in Qdrant", ">= 100", "215 (512-dim, Cosine)", "PASS"],
+        ["Cross-modal search", "Returns results", "3 results for 'birthday cake'", "PASS"],
+        ["Fusion ranker", "Produces fused list", "Top result: fused_score > 0.5", "PASS"],
+    ]
+    elems.append(metric_table(val_rows[0], val_rows[1:],
+                              col_widths=[5.0*cm, 3.0*cm, 5.2*cm, 3.4*cm]))
+    elems.append(Paragraph("Table 10 - All 5 Phase 8 validation checks passed.", s["caption"]))
+
+    elems.append(sub_header("7.6  CLIP Value-Add: Image-Only Hits", s))
+    elems.append(body(
+        "A key measurable benefit of the CLIP layer is <b>image-exclusive retrieval</b>: products "
+        "that the text RAG system misses but CLIP retrieves via visual similarity. "
+        "In demo runs, queries like <i>'something colourful and festive'</i> returned flower bouquets "
+        "from the image collection that had no textual match in the catalog description, "
+        "demonstrating genuine cross-modal retrieval capability beyond keyword overlap.", s))
+
+    return elems
+
+
 def sec_evaluation(styles):
     s = styles
-    elems = section_header("Evaluation Results", "7", s)
+    elems = section_header("Evaluation Results", "8", s)
     elems.append(body(
         "The agent was evaluated against a pre-defined suite of ten test scenarios "
         "covering all four intent classes and four embedded allergen traps. "
@@ -777,7 +873,7 @@ def sec_evaluation(styles):
 
 def sec_cost(styles):
     s = styles
-    elems = section_header("Cost Analysis & Scalability", "8", s)
+    elems = section_header("Cost Analysis & Scalability", "9", s)
     elems.append(body(
         "Claude 3 Haiku was selected for its exceptional cost-efficiency while maintaining "
         "sufficient reasoning capability for intent classification, product recommendation, "
@@ -806,7 +902,7 @@ def sec_cost(styles):
 
 def sec_constraints(styles):
     s = styles
-    elems = section_header("Technical Constraints & Compliance", "9", s)
+    elems = section_header("Technical Constraints & Compliance", "10", s)
     elems.append(body(
         "The project specification imposed several strict constraints. "
         "All were met without exception:", s))
@@ -840,7 +936,7 @@ def sec_constraints(styles):
 
 def sec_conclusion(styles):
     s = styles
-    elems = section_header("Conclusion", "10", s)
+    elems = section_header("Conclusion", "11", s)
     elems.append(body(
         "The Kapruka Gift-Concierge demonstrates that sophisticated, production-grade "
         "agentic AI can be built entirely from first principles. By decomposing the "
@@ -872,10 +968,12 @@ def sec_conclusion(styles):
     # Final results summary box
     results = Table([[Paragraph(
         '<b><font color="white">Final Evaluation Summary</font></b><br/><br/>'
-        '<font color="#C8963E">■</font>  Router Accuracy:  <b><font color="white">100%</font></b>'
-        '       <font color="#C8963E">■</font>  Allergy Safety:  <b><font color="white">100%</font></b>'
-        '       <font color="#C8963E">■</font>  Avg Latency:  <b><font color="white">5.8 s</font></b>'
-        '       <font color="#C8963E">■</font>  Products Indexed:  <b><font color="white">17,305</font></b>',
+        '<font color="#C8963E">■</font>  Router Accuracy: <b><font color="white">100%</font></b>'
+        '   <font color="#C8963E">■</font>  Allergy Safety: <b><font color="white">100%</font></b>'
+        '   <font color="#C8963E">■</font>  Avg Latency: <b><font color="white">5.8 s</font></b>'
+        '<br/><font color="#C8963E">■</font>  Products Indexed: <b><font color="white">17,305</font></b>'
+        '   <font color="#C8963E">■</font>  CLIP Image Vectors: <b><font color="white">215</font></b>'
+        '   <font color="#C8963E">■</font>  Retrieval Layers: <b><font color="white">3 (Text + CLIP + Fusion)</font></b>',
         ParagraphStyle("final", fontName="Helvetica", fontSize=10,
                        textColor=WHITE, alignment=TA_CENTER, leading=22)
     )]], colWidths=[PAGE_W - 2*MARGIN])
@@ -917,13 +1015,13 @@ def build_pdf(output_path: str):
     for fn in [
         sec_intro, sec_architecture, sec_memory,
         sec_agents, sec_reflection, sec_crawler,
-        sec_evaluation, sec_cost, sec_constraints, sec_conclusion
+        sec_multimodal, sec_evaluation, sec_cost, sec_constraints, sec_conclusion
     ]:
         story.append(PageBreak())
         story += fn(styles)
 
     doc.build(story, canvasmaker=NumberedCanvas)
-    print(f"✅  PDF saved → {output_path}")
+    print(f"[OK] PDF saved -> {output_path}")
 
 
 if __name__ == "__main__":

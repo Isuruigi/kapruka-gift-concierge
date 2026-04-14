@@ -11,3 +11,7 @@ pandas>=2.2.0
 streamlit>=1.40.0
 rich>=13.9.0
 tiktoken>=0.8.0
+torch
+transformers
+Pillow
+aiohttp
