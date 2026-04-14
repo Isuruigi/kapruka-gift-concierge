@@ -29,6 +29,7 @@ from src.agents.router import RouterAgent
 from src.agents.catalog_specialist import CatalogSpecialist
 from src.agents.logistics_specialist import LogisticsSpecialist
 from src.agents.reflection import ReflectionLoop
+from src.agents.visual_search_agent import VisualSearchAgent
 
 
 class GiftConciergeAgent:
@@ -57,6 +58,10 @@ class GiftConciergeAgent:
         self.catalog = CatalogSpecialist(self.llm, self.memory)
         self.logistics = LogisticsSpecialist(self.llm, self.settings)
         self.reflection = ReflectionLoop(self.llm, self.settings)
+        self.visual_agent = VisualSearchAgent(
+            llm_client=self.llm,
+            settings=self.settings,
+        )
 
     # ──────────────────────────────────────────────────────
     # Main entry point
@@ -134,6 +139,9 @@ class GiftConciergeAgent:
             "DELIVERY_CHECK":    self._handle_delivery_check,
             "ORDER_HISTORY":     self._handle_order_history,
         }
+        # Route visual queries to the multimodal agent
+        if intent == "PRODUCT_SEARCH" and self._is_visual_query(user_message):
+            return self._handle_visual_search(user_message, router_output, context)
         handler = handlers.get(intent, self._handle_general)
         return handler(user_message, router_output, context)
 
@@ -335,6 +343,70 @@ Return only JSON."""
             "products_recommended": [],
             "reflection_log": None,
             "memory_updated": False,
+        }
+
+    # ──────────────────────────────────────────────────────
+    # Visual / Multimodal helpers
+    # ──────────────────────────────────────────────────────
+
+    VISUAL_INTENT_KEYWORDS = [
+        "looks like", "appearance", "color", "colour", "colourful", "pretty",
+        "beautiful", "show me", "what does", "visually", "picture",
+        "image", "see the", "exact match",
+    ]
+
+    def _is_visual_query(self, message: str) -> bool:
+        """Detect if query benefits from visual retrieval."""
+        message_lower = message.lower()
+        return any(kw in message_lower for kw in self.VISUAL_INTENT_KEYWORDS)
+
+    def _extract_budget(self, message: str) -> float | None:
+        """Extract a numeric budget from a user message, if present."""
+        import re
+        match = re.search(r"(?:lkr|rs\.?|rupees?)?\s*(\d[\d,]*)", message, re.IGNORECASE)
+        if match:
+            try:
+                return float(match.group(1).replace(",", ""))
+            except ValueError:
+                pass
+        return None
+
+    def _extract_occasion(self, message: str) -> str | None:
+        """Extract occasion keywords from a user message."""
+        occasions = ["birthday", "anniversary", "wedding", "graduation", "valentine",
+                     "mother's day", "father's day", "christmas", "avurudu", "vesak",
+                     "deepavali", "eid", "new year"]
+        message_lower = message.lower()
+        for occ in occasions:
+            if occ in message_lower:
+                return occ
+        return None
+
+    def _handle_visual_search(
+        self, user_message: str, router_output: dict, context: dict
+    ) -> dict:
+        """
+        Route to VisualSearchAgent for multimodal gift retrieval.
+        Called when query benefits from visual matching.
+        """
+
+        recipient_key = context.get("recipient_key")
+        recipient_context = context.get("recipient_profile", "")
+
+        response = self.visual_agent.search(
+            query=user_message,
+            recipient_context=recipient_context,
+            budget_max=self._extract_budget(user_message),
+            occasion=self._extract_occasion(user_message),
+        )
+
+        return {
+            "response": response,
+            "recipient": recipient_key,
+            "products_recommended": [],
+            "reflection_log": None,
+            "memory_updated": False,
+            "retrieval_mode": "multimodal_fusion",
         }
 
     def _handle_general(

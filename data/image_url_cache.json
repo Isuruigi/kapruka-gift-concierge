@@ -1,0 +1,570 @@
+{
+  "cakes": [
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774328399361_dsc08710.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/araliya-bloom-avurudu-chocolat/kid/cake00ka002123"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774332060387_dsc02638.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-surya-chocolate-cake/kid/cake00ka002124"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774845096329_dsc09258.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-special-vanilla-gateux/kid/cake00ka002131"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775549974830_dsc00014.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/punchi-avurudu-suriya-bento-ri/kid/cake00ka002134"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1712049324157_m2.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-vanilla-betal-leaf-cak/kid/cakegmc00337"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775641713754_betal.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/kingsbury-avurudu-betel-leaf-r/kid/cakekb00345"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775543719030_kaviilu.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/dilmah-avurudu-treats-vanilla-/kid/cakedc00187"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1744084866220_dsc02624.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/nh-collection-avurudu-butter-c/kid/cakemvp00279"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775119958007_kavilli.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/breadtalk-avurudu-kavili-baske/kid/cakebt00492"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774858788852_ush09228.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-marriott-avurudu-ele/kid/cakecbm0161"
+    },
+    {
+      "product_name": "2 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1735195400322_betalleaf.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-betel-leaf-ribbon-cake/kid/cake00ka001795"
+    },
+    {
+      "product_name": "2.66 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1742798644953_black.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-gama-madulla-surya-ras/kid/cake00ka001849"
+    },
+    {
+      "product_name": "2.55 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1743136257952_boxxx.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-golden-sunburst-cake/kid/cake00ka001853"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1773309708580_dsc04842.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-kiribath-pot-ribbon-ca/kid/cake00ka002120"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1773308269217_dsc04886.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-sun-blossom-ribbon-cake/kid/cake00ka002121"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1773307230047_dsc04863.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-araliya-vanilla-celebr/kid/cake00ka002122"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774347499254_dsc05004.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-traditions-ribbon-cake/kid/cake00ka002127"
+    },
+    {
+      "product_name": "2 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775647251673_dsc09638.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/rathu-avurudu-araliya-vanilla-/kid/cake00ka002135"
+    },
+    {
+      "product_name": "1.11 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775120277953_mmkl.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/breadtalk-avurudu-betel-leaf-c/kid/cakebt00491"
+    },
+    {
+      "product_name": "1.11 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1775119405035_p.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/breadtalk-avurudu-lotus-leaf-c/kid/cakebt00493"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774860681378_ush09269.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-marriott-avurudu-coc/kid/cakecbm0158"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774860134966_ush09250.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-marriott-aurudu-ribb/kid/cakecbm0159"
+    },
+    {
+      "product_name": "0.66 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774859884968_ush09243.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-marriott-avurudu-ben/kid/cakecbm0160"
+    },
+    {
+      "product_name": "2.22 Lbs",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/cakes/productImages/zoom/1774860379787_ush09261.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-marriott-chocolate-c/kid/cakecbm0165"
+    }
+  ],
+  "flowers": [
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1743518572474_dsc02010.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/aloka-2026-floral-arrangement-/kid/flowers00t1821"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1712555020566_dsc_8032.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/lamp-of-prosperity-2026-floral/kid/flowers00t1621"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1775455785548_dsc09664.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/golden-sunshine-spray-yellow-r/kid/flowers00t2103"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1773838367584_dsc06020.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/golden-blush-elegant-rose-bouq/kid/flowers00t2085"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1775457254750_dsc09679.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/trio-tiny-spray-red-white-yell/kid/flowers00t2104"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1762920591642_dsc04450.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pink-shaded-white-rose-bouquet/kid/flowers00t1989"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1775194738575_ush09606.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/heart-shaped-60-pink-roses-bou/kid/flowers00t2094"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1770376030240_dsc00923.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/be-mine-rose-bouquet-with-7-re/kid/flowers00t2067"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1773837012682_dsc06056.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/elegant-pink-white-rose-lily-b/kid/flowers00t2083"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1774008406249_dsc06043.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/blushing-7-pink-roses-bouquet/kid/flowers00t2093"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1775199173201_ush09537.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/white-pink-mixed-bloom-flower-/kid/flowers00t2096"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1775459352400_dsc09690.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/sunny-charm-spray-bouquet/kid/flowers00t2100"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1761050765891_dsc01769.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pink-white-tiger-lily-charm-bo/kid/flowers00t1982"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1767863384033_dsc02699.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pure-white-lisianthus-flower-b/kid/flowers00t2028"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1771483314011_dsc02041.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/purple-charm-lisianthus-bouquet/kid/flowers00t2080"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1771485165143_dsc02061.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/blushing-elegance-pink-lisiant/kid/flowers00t2082"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1773838611671_dsc06009.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/blush-pink-shaded-rose-bouquet/kid/flowers00t2086"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1753191357250_dsc09779.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/cherished-moments-bouquet-with/kid/flowers00t1921"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1761111560979_dsc01895.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/peach-burgundy-elegance-bouque/kid/flowers00t1983"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1759327391449_dsc09361.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/sunshine-texas-bouquet-with-8-/kid/flowers00t1969"
+    },
+    {
+      "product_name": "RS.3,200",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1761127401880_dsc01986.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/petite-peach-elegance-bouquet-/kid/flowers00t1987"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1761127207405_dsc01935.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/peach-yellow-garden-vase-arran/kid/flowers00t1988"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1770462553931_dsc00907.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/mixed-14-rose-bouquet-10-red-4/kid/flowers00t2073"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1769138468491_dsc06706.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/luxury-bloom-arrangement-with-/kid/flowers00t2046"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1768474347673_dsc02978.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/50-red-roses-heart-shaped-bouq/kid/flowers00t2032"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1769589321802_nmmmmm.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/royal-romance-80-red-roses-arr/kid/flowers00t2056"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1770468004850_dsc01050.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/ultimate-love-120-red-roses-pr/kid/flowers00t2076"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1773993674851_dsc05962.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/red-heart-gift-box-arrangement/kid/flowers00t2089"
+    },
+    {
+      "product_name": "Best Seller",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/flowershop/flowerImages/zooms/1773993260891_dsc05968.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pink-heart-box-arrangement-wit/kid/flowers00t2088"
+    }
+  ],
+  "chocolates": [
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1769751385946_dsc08066-1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/i-love-you-white-chocolate-15-/kid/chocolates00ka00208"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1769934151996_dsc09456.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pure-love-gold-dusted-heart-ch/kid/chocolates00ka00210"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1770612157619_dsc00590.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/blush-romance-dipped-strawberr/kid/chocolates00ka00213"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1772099719994_dsc02193.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/java-island-rose-collection-10/kid/chocolates001991"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1727161143789_12pieces.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/shangri-la-12-pcs-chocolate-box/kid/chocolates001796"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1656564807002_thalag3pc_m.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/thala-guli-3-pack-gmc/kid/chocolates001331"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1767936818593_dsc02332.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/zellers-strawberry-cream-fille/kid/chocolates001974"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1710824013735_dsc_4760copy2.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/revello-finemelts-milk-chocola/kid/chocolates001694"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1770100019506_dsc09476.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/ritzbury-roccoa-with-milk-25g/kid/chocolates00118"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00469/choc0v1133p00001/choc0v1133p00001_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/chocoholic-dreams-gift-box/kid/ef_pc_choc0v1133pod00001"
+    },
+    {
+      "product_name": "Top Choices",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/choc0v2505p00097/choc0v2505p00097_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/the-grand-sweet-romance-gift-b/kid/ef_pc_choc0v2505pod00097"
+    },
+    {
+      "product_name": "RS.1,910",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1479445350999__dsc1273.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/coconut-toffee-16-pieces-gmc/kid/chocolates00415"
+    },
+    {
+      "product_name": "RS.1,620",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712051765315_m8.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/chocolate-covered-pani-walalu-/kid/chocolates001722"
+    },
+    {
+      "product_name": "RS.3,480",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712051520705_m7.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/chocolate-covered-kokis-10-pac/kid/chocolates001723"
+    },
+    {
+      "product_name": "RS.3,840",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712051311265_m6.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-8-piece-chic-paperboar/kid/chocolates001724"
+    },
+    {
+      "product_name": "RS.14,380",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712050961405_m5.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/happy-new-year-25-piece-classi/kid/chocolates001725"
+    },
+    {
+      "product_name": "RS.11,030",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712050670097_m4.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/suba-aluth-avuruddak-30-piece-/kid/chocolates001726"
+    },
+    {
+      "product_name": "RS.22,950",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1491198708128__dsc2371_m.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/suba-nava-wasarak-wewa-45-piec/kid/chocolates00497"
+    },
+    {
+      "product_name": "RS.17,540",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1774854417540_ush09320.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/courtyard-mariott-avurudu-kavi/kid/chocolates002000"
+    },
+    {
+      "product_name": "RS.17,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1774422605459_ccchj.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-hamper-classic-gmc/kid/chocolates001999"
+    },
+    {
+      "product_name": "RS.17,980",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1774421585022_hhyjuik.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-hamper-signature-gmc/kid/chocolates001998"
+    },
+    {
+      "product_name": "RS.5,320",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1773916842557_dsc02743.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/sweet-indulgence-macaron-box-8/kid/chocolates00ka00219"
+    },
+    {
+      "product_name": "RS.6,420",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1774349618549_dsc02757.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/vintage-blue-charm-macaron-box/kid/chocolates00ka00218"
+    },
+    {
+      "product_name": "RS.1,200",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1710823192496_dsc_4741copy2.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/revello-classic-hazelnut-choco/kid/chocolates001689"
+    },
+    {
+      "product_name": "RS.7,830",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1712313017870_m243.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/java-suba-aluth-awrudu-new-cho/kid/chocolates001728"
+    },
+    {
+      "product_name": "RS.5,420",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1773228925722_dsc02822.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/pistachio-nutella-hazelnut-and/kid/chocolates00ka00217"
+    },
+    {
+      "product_name": "RS.3,690",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1773227906145_dsc02826.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/biscoff-and-oreo-chocolate-fud/kid/chocolates00ka00216"
+    },
+    {
+      "product_name": "RS.6,870",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1773226226453_dsc02806.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/biscoff-pistachio-nutella-whit/kid/chocolates00ka00215"
+    },
+    {
+      "product_name": "RS.5,170",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1746163024476_dsc06653.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/java-i-love-you-mom-8-pcs-slee/kid/chocolates001913"
+    }
+  ],
+  "hampers": [
+    {
+      "product_name": "RS.18,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1711370315656_2.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/let-us-make-kewili-hamper-top-/kid/cphamper0297"
+    },
+    {
+      "product_name": "RS.8,450",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00006/hamp0v18p00018/hamp0v18p00018_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/healthy-and-energy-booster-fit/kid/ef_pc_hamp0v18pod00018p"
+    },
+    {
+      "product_name": "RS.6,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1700113039650_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/family-hygienic-needs-hamper-b/kid/cphamper0268"
+    },
+    {
+      "product_name": "RS.15,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1733920558547_4.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/golden-crunch-nutty-hamper-box/kid/cphamper0318"
+    },
+    {
+      "product_name": "RS.20,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1681198231113_dsc4207m.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/royal-cashews-executive-deluxe/kid/cphamper0239"
+    },
+    {
+      "product_name": "RS.3,750",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1761279785255_untitled-1(5).jpg",
+      "product_url": "https://www.kapruka.com/buyonline/hot-ramen-flavours-combo-hampe/kid/cphamper0346"
+    },
+    {
+      "product_name": "RS.4,750",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1764443215779_dsc09512.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/family-joy-grocery-hamper-top-/kid/cphamper0356"
+    },
+    {
+      "product_name": "RS.21,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1764438180717_dsc09547.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/family-favorites-hamper-top-se/kid/cphamper0354"
+    },
+    {
+      "product_name": "RS.7,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1761281081916_untitled-1yhjh.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/movie-night-delight-hamper-top/kid/cphamper0347"
+    },
+    {
+      "product_name": "RS.23,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1764433161137_dsc09620.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/luxury-pantry-goals-hamper-top/kid/cphamper0351"
+    },
+    {
+      "product_name": "RS.23,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00012/hamp0v2505p00012_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/the-classic-cravings-hamper-box/kid/ef_pc_hamp0v2505pod00012"
+    },
+    {
+      "product_name": "RS.25,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00013/hamp0v2505p00013_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/the-joyful-munch-gift-hamper/kid/ef_pc_hamp0v2505pod00013"
+    },
+    {
+      "product_name": "RS.13,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1699258918041_dsc_4596-2copy.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/family-pack-hamper-top-selling/kid/cphamper0265"
+    },
+    {
+      "product_name": "RS.23,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00009/hamp0v2505p00009_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/taste-of-happiness-hamper/kid/ef_pc_hamp0v2505pod00009"
+    },
+    {
+      "product_name": "RS.25,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00011/hamp0v2505p00011_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/the-signature-treats-hamper/kid/ef_pc_hamp0v2505pod00011"
+    },
+    {
+      "product_name": "RS.13,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00014/hamp0v2505p00014_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/holiday-indulgence-hamper-box/kid/ef_pc_hamp0v2505pod00014"
+    },
+    {
+      "product_name": "RS.16,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00008/hamp0v2505p00008_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/golden-bliss-gourmet-hamper/kid/ef_pc_hamp0v2505pod00008"
+    },
+    {
+      "product_name": "RS.3,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00698/home0v1929p00002/home0v1929p00002_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/perfect-gift-hamper-02/kid/ef_pc_home0v1929pod00002"
+    },
+    {
+      "product_name": "RS.13,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01128/hamp0v2505p00002/hamp0v2505p00002_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/gourmet-surprise-hamper/kid/ef_pc_hamp0v2505pod00002"
+    },
+    {
+      "product_name": "RS.13,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00334/gift0v571p00110/gift0v571p00110_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/grand-love-hamper/kid/ef_pc_gift0v571pod00110"
+    },
+    {
+      "product_name": "RS.9,400",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00334/gift0v571p00044/gift0v571p00044_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/celebration-gift-hamper/kid/ef_pc_gift0v571pod00044"
+    },
+    {
+      "product_name": "",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1671610262442_hampers.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/see-top-selling-hampers/kid/catsym00262"
+    },
+    {
+      "product_name": "RS.37,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc00006/hamp0v18p00014/hamp0v18p00014_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/grand-royal-celebration-hamper/kid/ef_pc_hamp0v18pod00014p"
+    },
+    {
+      "product_name": "RS.1,210",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01491/vege0v4178p00002/vege0v4178p00002_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/daily-fresh-vegetable-hamper/kid/ef_pc_vege0v4178pod00002"
+    },
+    {
+      "product_name": "RS.3,040",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01491/vege0v4178p00001/vege0v4178p00001_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/fresh-harvest-hamper-pack/kid/ef_pc_vege0v4178pod00001"
+    },
+    {
+      "product_name": "RS.7,000",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1620301449436_dsc_9097_m.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/sweet-flavors-grocery-hamper-t/kid/cphamper0176"
+    },
+    {
+      "product_name": "RS.18,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1773729871377_hamper-2.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/festive-flavours-new-year-hamp/kid/cphamper0363"
+    },
+    {
+      "product_name": "RS.9,400",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01488/hamp0v4204p00008/hamp0v4204p00008_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/avurudu-special-hamper-pack-04/kid/ef_pc_hamp0v4204pod00008p"
+    },
+    {
+      "product_name": "RS.6,700",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/shops/specialGifts/productImages/1774419614474_dsc04757.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/fruit-energy-hamper-for-aurudu/kid/fruits00290"
+    },
+    {
+      "product_name": "RS.8,500",
+      "image_url": "https://static2.kapruka.com/product-image/width=330,quality=93,f=auto/https://partnercentral.kapruka.com/kapruka-pc/assets/images/product/pc01496/gift0v4239p00005/gift0v4239p00005_1.jpg",
+      "product_url": "https://www.kapruka.com/buyonline/love-hamper/kid/ef_pc_gift0v4239p00005"
+    }
+  ]
+}
